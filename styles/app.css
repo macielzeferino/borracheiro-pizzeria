@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.mobileHidden{
+  display: none;
+}
+
+section {
+  padding: 1rem;
+}
+
+header {
+  width:100% ;
+}
+
+#logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  font-family: italic;
+}
+
+#logo img{
+  background-color: transparent;
+  border: 0;
+  margin-right: 10px;
+}
+
+#main-section{
+  background-image:url("./images/bg-mobile-img.svg"), linear-gradient(to right, rgba(255, 255, 255, 0.479), rgba(0, 0, 0, 0.3));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: local;
+  width: 100%;
+  max-width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.btn a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 20px;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  position: relative;
+  top: 0;
+  color: #fff;
+  font-style: italic;
+  font-family: cursive;
+  text-shadow: 2px 2px 4px #000;
+}
+
+h2 {
+  font-size:2.3rem ;
+  position: relative;
+  top: 0;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000;
+  font-style: italic;
+  font-family: cursive;
+  font-weight: 700;
+}
+
+.main-color {
+  background-color: hsla(39.9,85.65%,53.53%, 1);
+}
+
+.btn-lg {
+  width: 14rem;
+  height: 5rem;
+  padding: 0;
+}
+
+#cards-section{
+  height: 60vh;
+}
